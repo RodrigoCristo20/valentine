@@ -34,9 +34,9 @@ col1, col2 = st.columns(2)
 
 with col1:
     if st.button("SIM! 😍"):
-        st.balloons()
-        st.success("Boa resposta!")
-        st.write("perioooddd")
+        st.balloons() 
+        st.snow()
+        st.success("perioooddd")
 
 with col2:
     if st.button("Não... 😢"):
@@ -46,4 +46,5 @@ with col2:
             "Erro 404: Opção 'Não' indisponível.",
             "Carrega no sim parva"
         ]
+
         st.error(random.choice(respostas_engracadas))
