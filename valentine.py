@@ -26,7 +26,7 @@ st.markdown("""
 st.title("Oi Ticha")
 st.write("### Tenho uma pergunta muito importante para te fazer...")
 
-st.image("fototicha.jpeg", caption="ganda testa", use_container_width=True)
+st.image("fototicha1.jpeg", caption="os mais lindos", use_container_width=True)
 
 st.write("## Will you be my Valentine? (dia 21) (e sempre)")
 
@@ -48,3 +48,4 @@ with col2:
         ]
 
         st.error(random.choice(respostas_engracadas))
+
